@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date Picker</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div id="app" class="months-box content">
+            <header>
+                
+                <div class="year-header">
+                    <i id="prevYear" class="ph-bold ph-caret-left year-nav">&lt;</i>
+                    <span class="year-value"></span>
+                    <i id="nextYear" class="ph-bold ph-caret-right year-nav">&gt;</i>
+                </div>
+                
+            </header>
+            <main class="main-months"></main>
+        </div>
+
+        <div id="dayMonth" class="days-month-box content">
+            <header>
+                <i id="prevMonth" class="ph-bold ph-caret-left">&lt;</i>
+                <span></span>
+                <i id="nextMonth" class="ph-bold ph-caret-right">&gt;</i>
+            </header>
+            <main class="main-days"></main>
+        </div>
+    </div>
+    <div id="calculate-fertility">
+        <select name="periodDuration" id="period-duration"></select>
+        <div id="calculate">Calcola</div>
+    </div>
+    
+
+    <!-- Date picker from Rocketseat boraCodar.dev Template -->
+    <script src="script.js" defer></script>
+</body>
+
+</html>
