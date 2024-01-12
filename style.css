@@ -41,13 +41,13 @@
     align-items: center;
     justify-content: space-between;
     font-weight: 700;
-    color: #333;
+    color: #000;
   }
   
   header i {
     padding: 16px;
     border-radius: 50%;
-    color: #666;
+    color: #000;
     cursor: pointer;
   }
   
@@ -73,8 +73,8 @@
 
 /* Stile per evidenziare il mese selezionato, se necessario */
 .selected-month {
-  background-color: #007bff;
-  color: #fff;
+  background-color: #77b6fa;
+  border-radius: 8px;
 }
 
   .main-months > div {
@@ -83,7 +83,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #666;
+    color: #000;
     cursor: pointer;
     transition: all 300ms;
   }
@@ -124,7 +124,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #666;
+    color: #000;
     cursor: pointer;
     transition: all 300ms;
   }
@@ -167,7 +167,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #666;
+    color: #000;
     cursor: pointer;
     transition: all 300ms;
   }
